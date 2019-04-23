@@ -9,7 +9,19 @@ a:hover {
 
 a {
     text-decoration: none;
-    color: #000000;
+    color: #ee0000;
+}
+
+@media (max-width: 1000px) {
+      a:hover {
+          text-decoration: none;
+          color: #ee0000;
+      }
+
+      a {
+          text-decoration: none;
+          color: #000000;
+      }
 }
 
 pre {
